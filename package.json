@@ -1,0 +1,27 @@
+{
+  "name": "back_superland",
+  "version": "1.0.0",
+  "description": "npm install et lancer avec npm run dev",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuillaumeCregut/liveco_react_backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GuillaumeCregut/liveco_react_backend/issues"
+  },
+  "homepage": "https://github.com/GuillaumeCregut/liveco_react_backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.21"
+  }
+}
